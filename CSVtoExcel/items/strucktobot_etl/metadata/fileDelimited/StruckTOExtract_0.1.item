@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Os6E4Bk6EeelgLHjme_OWQ" name="StruckTOExtract" dataPackage="_Os9vQBk6EeelgLHjme_OWQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/user/Desktop/struckDBExtract-2017-04-04.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" EscapeType="CSV" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Os9vQBk6EeelgLHjme_OWQ" name="default" dataManager="_Os6E4Bk6EeelgLHjme_OWQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Os9vQRk6EeelgLHjme_OWQ" id="_2yxnABk5EeelgLHjme_OWQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Os9vQhk6EeelgLHjme_OWQ" label="TWEET_ID" length="18" talendType="id_Long" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Os9vQxk6EeelgLHjme_OWQ" label="DATE" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Os9vRBk6EeelgLHjme_OWQ" label="LAT" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Os9vRRk6EeelgLHjme_OWQ" label="LNG" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
